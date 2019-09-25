@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="SchemaSelector">
+		<column name="Schema Name" visible="true" order="0" width="169"/>
+		<column name="Default Charset" visible="true" order="1" width="120"/>
+		<column name="Default Collation" visible="true" order="2" width="131"/>
+		<column name="SQL Path" visible="true" order="3" width="77"/>
+		<column name="Database size" visible="true" order="4" width="107"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="116"/>
+		<column name="Time" visible="true" order="1" width="171"/>
+		<column name="Info" visible="true" order="2" width="1600"/>
+	</item>
+</items>

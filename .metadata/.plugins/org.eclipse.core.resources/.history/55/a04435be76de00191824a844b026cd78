@@ -1,0 +1,21 @@
+<%@page import="java.sql.Connection"%>
+<%@page import="com.springsource.tcserver.serviceability.request.DataSource"%>
+<%@page import="javax.naming.InitialContext"%>
+<%@page import="javax.naming.Context"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+		Context initContext = new InitialContext();
+		Context envContext = initContext.lookup("java:/comp/env");
+		DataSource ds = envContext.lookup("jdbc/SqlDB");
+		Connection conn = ds.getConnection();
+	%>
+</body>
+</html>
