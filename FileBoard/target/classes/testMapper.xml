@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="test">
+	<select id="getToday" resultClass="java.lang.String">
+		<![CDATA[
+			select now()
+		]]>
+	</select>
+	<select id="sum" parameterClass="HashMap" resultClass="int">
+		<![CDATA[
+			select #num1# + #num2# + #num3#
+		]]>
+	</select>
+</sqlMap>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="board">
+	<!-- 1. 개수 얻기 -->
+	<select id="selectCount" resultClass="int">
+		select count(*) from fileboard	
+	</select>
+	<!-- 2. 1개 얻기 -->
+	<select id="selectByIdx" parameterClass="int" resultClass="FileBoardVO">
+		select * from fileboard	where idx=#idx#
+	</select>
+	
+	<!-- 3. 1페이지 얻기 -->
+	<select id="selectList" parameterClass="HashMap" resultClass="FileBoardVO">
+		select * from fileboard	order by idx desc limit #startNo#, #pageSize#
+	</select>
+	
+	<!-- 4. 저장 -->
+	<insert id="insert" parameterClass="FileBoardVO" >
+		insert into fileboard 
+		(name,password,subject,content,regdate,ip)
+		values
+		(#name#,password(#password#),#subject#,#content#,now(),#ip#)
+	</insert>
+	<!-- 5. 수정 -->
+	<update id="update" parameterClass="FileBoardVO" >
+		update fileboard set
+			subject = #subject#,
+			content = #content#,
+			regdate = now(),
+			ip = #ip#
+		where
+			idx = #idx#
+	</update>
+	<!-- 6. 삭제 -->
+	<delete id="delete" parameterClass="int" >
+		delete from fileboard where idx=#idx#
+	</delete>
+	
+	<!-- 
+	7.  마지막으로 증가한 auto_increment 값 얻기
+	select max(idx) from fileboard	
+	select last_insert_id()
+	 -->
+	<select id="selectLastIdx" resultClass="int">
+		select max(idx) from fileboard	
+	</select>
+	
+	<!-- 8. 암호가 일치하는지 확인하는 쿼리 -->
+	<select id="passwordCheck" resultClass="int" parameterClass="HashMap">
+		select count(*) from fileboard where password=password(#password#) and idx=#idx#	
+	</select>
+</sqlMap>

@@ -11,6 +11,8 @@ D:\Java\Study\Java_Convergence_New_2\.metadata\.plugins\org.eclipse.jst.jsp.core
 \MariaGuestbook\src
 D:\Java\Study\Java_Convergence_New_2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2962319917.index
 \ibatisMariaGuestbook\src\main\java
+D:\Java\Study\Java_Convergence_New_2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4016268565.index
+\FileBoard\src\test\resources
 D:\Java\Study\Java_Convergence_New_2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\802756073.index
 \Log4j2Ex\src\main\java
 D:\Java\Study\Java_Convergence_New_2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2644923017.index
