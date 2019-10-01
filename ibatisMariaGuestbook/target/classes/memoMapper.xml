@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="memo">
+	<insert id="insert" parameterClass="GuestbookVO">
+		<![CDATA[
+			insert into guestbook (name,password,content,regDate,ip) values (#name#,#password#,#content#,now(),#ip#)
+		]]>
+	</insert>
+
+	<update id="update" parameterClass="GuestbookVO">
+		<![CDATA[
+			update guestbook set content=#content#, regDate=now(), ip=#ip# where idx=#idx#
+		]]>
+	</update>
+
+	<delete id="delete" parameterClass="GuestbookVO">
+		<![CDATA[
+			delete from guestbook where idx=#idx#
+		]]>
+	</delete>
+</sqlMap>

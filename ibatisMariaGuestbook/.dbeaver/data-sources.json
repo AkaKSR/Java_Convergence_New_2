@@ -1,0 +1,20 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-16d81407fc9-7d4e06e274b2c916": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - jspdb",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jspdb",
+				"url": "jdbc:mysql://localhost:3306/jspdb",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	}
+}

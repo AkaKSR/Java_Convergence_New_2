@@ -1,0 +1,41 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-16d7183ce73-6bcaed8ed6c277cf": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - jspdb",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jspdb",
+				"url": "jdbc:mysql://localhost:3306/jspdb",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	},
+	"virtual-models": {
+		"mariaDB-16d7183ce73-6bcaed8ed6c277cf": {
+			"information_schema": {
+				":COLUMNS": {
+					"constraints": {
+						"PRIMARY": {
+							"type": "vpk",
+							"attributes": [
+								"COLUMN_NAME",
+								"COLUMN_TYPE",
+								"IS_NULLABLE",
+								"COLUMN_KEY",
+								"COLUMN_DEFAULT",
+								"EXTRA"
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}

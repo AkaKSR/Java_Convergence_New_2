@@ -67,3 +67,21 @@
 9월 24, 2019 18:13:27.65 [0924/181327.654:ERROR:crash_report_database_win.cc(428)] unexpected header
 9월 24, 2019 18:14:51.81 [0924/181451.812:ERROR:crash_report_database_win.cc(428)] unexpected header
 9월 24, 2019 18:16:26.83 [0924/181626.833:ERROR:crash_report_database_win.cc(428)] unexpected header
+
+9월 30, 2019 10:44:51.34 NEW SESSION
+9월 30, 2019 10:44:51.34 [7696:6128:0930/104451.297:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.433 s for first_image_paint 0.388 s
+9월 30, 2019 10:44:52.31 [7696:6128:0930/104452.316:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.433 s for first_image_paint 0.388 s
+9월 30, 2019 10:44:52.96 [7696:6128:0930/104452.965:ERROR:page_load_metrics_update_dispatcher.cc(166)] Invalid first_paint 0.433 s for first_image_paint 0.388 s
+9월 30, 2019 10:54:53.71 [7696:4716:0930/105453.718:ERROR:backend_impl.cc(1058)] Critical error found -8
+9월 30, 2019 10:54:53.73 [7696:4716:0930/105453.718:ERROR:entry_impl.cc(995)] Failed to save user data
+9월 30, 2019 18:31:44.62 [7696:4828:0930/183144.623:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 01, 2019 09:28:03.56 [7696:4828:1001/092803.567:ERROR:socket_stream.cc(219)] Closing stream with result -2
+10월 01, 2019 09:28:03.63 [7696:6128:1001/092803.571:ERROR:gcm_channel_status_request.cc(145)] GCM channel request failed.
+10월 01, 2019 09:28:03.64 [7696:8376:1001/092803.612:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+10월 01, 2019 09:28:03.65 [7696:8376:1001/092803.614:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+10월 01, 2019 09:28:25.11 [7696:4828:1001/092825.117:ERROR:connection_factory_impl.cc(418)] Failed to connect to MCS endpoint with error -105
+10월 01, 2019 09:28:25.13 [7696:8376:1001/092825.121:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+10월 01, 2019 09:28:25.14 [7696:8376:1001/092825.121:ERROR:get_updates_processor.cc(246)] PostClientToServerMessage() failed during GetUpdates
+10월 01, 2019 09:28:37.18 [7696:12084:1001/092837.181:ERROR:gcm_store_impl.cc(630)] LevelDB remove failed: NotFound: 
+10월 01, 2019 09:28:37.18 [7696:4828:1001/092837.181:ERROR:mcs_client.cc(531)] GCM Update failed!
+10월 01, 2019 09:51:29.18 [7696:4828:1001/095129.181:ERROR:socket_stream.cc(219)] Closing stream with result -2

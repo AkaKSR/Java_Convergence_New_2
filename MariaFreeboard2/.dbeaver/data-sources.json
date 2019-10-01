@@ -1,0 +1,49 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-16d668bb707-772a30202574c35b": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - jspdb",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jspdb",
+				"url": "jdbc:mysql://localhost:3306/jspdb",
+				"type": "dev"
+			}
+		},
+		"mariaDB-16d6b530fcf-44c9ae9d3137924f": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - jspdb 2",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "192.168.0.123",
+				"port": "3306",
+				"database": "jspdb",
+				"url": "jdbc:mysql://192.168.0.123:3306/jspdb",
+				"type": "dev",
+				"handlers": {}
+			}
+		},
+		"mariaDB-16d6b65f0d3-3b4f9cdc8b73a212": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "Server - user",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "akaksr.ipdisk.co.kr",
+				"port": "3306",
+				"database": "jspdb",
+				"url": "jdbc:mysql://akaksr.ipdisk.co.kr:3306/jspdb",
+				"type": "dev",
+				"handlers": {}
+			}
+		}
+	}
+}

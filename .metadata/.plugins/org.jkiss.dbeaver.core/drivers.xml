@@ -15,6 +15,12 @@
 	<provider id="sqlserver"/>
 	<provider id="mssql"/>
 	<provider id="mysql">
+		<driver id="mysql8" categories="sql" custom="false" embedded="false" name="MySQL 8+" class="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://{host}[:{port}]/[{database}]" port="3306" description="Driver for MySQL 8 and later">
+			<library type="jar" path="maven:/mysql:mysql-connector-java:RELEASE" custom="false" version="8.0.17">
+				<file id="mysql:mysql-connector-java" version="8.0.17" path="${drivers_home}\maven\maven-central\mysql\mysql-connector-java-8.0.17.jar"/>
+				<file id="com.google.protobuf:protobuf-java" version="3.6.1" path="${drivers_home}\maven\maven-central\com.google.protobuf\protobuf-java-3.6.1.jar"/>
+			</library>
+		</driver>
 		<driver id="mariaDB" categories="sql" custom="false" embedded="false" name="MariaDB" class="org.mariadb.jdbc.Driver" url="jdbc:mariadb://{host}[:{port}]/[{database}]" port="3306" description="MariaDB JDBC driver">
 			<library type="jar" path="maven:/org.mariadb.jdbc:mariadb-java-client:RELEASE" custom="false" version="2.4.3">
 				<file id="org.mariadb.jdbc:mariadb-java-client" version="2.4.3" path="${drivers_home}\maven\maven-central\org.mariadb.jdbc\mariadb-java-client-2.4.3.jar"/>

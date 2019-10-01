@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="memo">
+	<select id="getToday" resultClass="java.lang.String">
+		<![CDATA[
+			select now()
+		]]>
+	</select>
+	
+	<!-- 1. 개수 구하기 -->
+	<select id="selectCount" resultClass="int">
+		<![CDATA[
+			select count(*) from memo
+		]]>
+	</select>
+	<!-- 2. 1개 구하기 -->
+	<select id="selectByIdx" parameterClass="int" resultClass="MemoVO">
+		<![CDATA[
+			select * from memo where idx=#idx#
+		]]>
+	</select>
+	<!-- 3. 1페이지 구하기 -->
+	<select id="selectList" parameterClass="HashMap" resultClass="MemoVO">
+		<![CDATA[
+			select * from memo order by idx desc limit #startNo#, #pageSize#
+		]]>
+	</select>
+	<!-- 4. 저장하기 -->
+	<insert id="insert" parameterClass="MemoVO">
+		<![CDATA[
+			insert into memo (name,password,content,regDate,ip) values (#name#,#password#,#content#,now(),#ip#)
+		]]>
+	</insert>
+	<!-- 5. 수정하기 -->
+	<update id="update" parameterClass="MemoVO">
+		<![CDATA[
+			update memo set content=#content#, regDate=now(), ip=#ip# where idx=#idx#
+		]]>
+	</update>
+	<!-- 6. 삭제하기 -->
+	<delete id="delete" parameterClass="int">
+	<![CDATA[
+			delete from memo where idx=#idx#
+		]]>
+	</delete>
+</sqlMap>

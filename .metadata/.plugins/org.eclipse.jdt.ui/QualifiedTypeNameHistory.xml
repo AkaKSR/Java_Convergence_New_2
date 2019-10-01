@@ -7,14 +7,20 @@
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="kr.green.service.GuestbookService"/>
-<fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="kr.green.jdbc.JdbcUtil"/>
 <fullyQualifiedTypeName name="kr.green.dao.GuestbookDAO"/>
 <fullyQualifiedTypeName name="kr.green.vo.Paging"/>
+<fullyQualifiedTypeName name="kr.green.vo.GuestbookVO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
+<fullyQualifiedTypeName name="kr.green.board.service.BoardService"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="kr.green.board.dao.BoardDAO"/>
+<fullyQualifiedTypeName name="kr.green.board.vo.Paging"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="kr.green.vo.GuestbookVO"/>
+<fullyQualifiedTypeName name="kr.green.board.vo.BoardVO"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.Thread.State"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="kr.green.jdbc.JdbcUtil"/>
 </qualifiedTypeNameHistroy>

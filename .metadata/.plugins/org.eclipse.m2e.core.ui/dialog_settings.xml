@@ -11,6 +11,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="MariaFreeboard"/>
 			<item value="MariaGuestbook"/>
 		</list>
 		<list key="version">
