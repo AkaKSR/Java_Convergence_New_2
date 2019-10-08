@@ -27,7 +27,11 @@
 			</library>
 		</driver>
 	</provider>
-	<provider id="oracle"/>
+	<provider id="oracle">
+		<driver id="oracle_thin" categories="sql" custom="false" embedded="false" name="Oracle" class="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@{host}[:{port}]/{database}" port="1521" description="Oracle JDBC driver">
+			<library type="jar" path="C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib\ojdbc6.jar" custom="true"/>
+		</driver>
+	</provider>
 	<provider id="postgresql"/>
 	<provider id="snowflake"/>
 	<provider id="vertica"/>

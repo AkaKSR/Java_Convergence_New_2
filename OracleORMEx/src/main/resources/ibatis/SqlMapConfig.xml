@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN" "http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<!--Always ensure to use the correct XML header as above! -->
+<sqlMapConfig>
+	<!-- 프로퍼티 파일 이름 -->
+	<properties
+		resource="db.properties" />
+		<!-- Transactions 및 maxRequest 개수 그리고 maxSessions 설정 -->
+	<settings
+		cacheModelsEnabled="true"
+		enhancementEnabled="true"
+		lazyLoadingEnabled="true"
+		maxRequests="32"
+		maxSessions="10"
+		maxTransactions="5"
+		useStatementNamespaces="true" />
+		<!-- 클래스 이름을 줄여서 사용하겠다. -->
+	<typeAlias alias="HashMap" type="java.util.HashMap" />
+	<!-- DB 연결 정보 설정 -->
+	<transactionManager type="JDBC">
+		<dataSource type="DBCP">
+			<property name="JDBC.Driver" value="${o.driver}" />
+			<property name="JDBC.ConnectionURL" value="${o.url}" />
+			<property name="JDBC.Username" value="${o.username}" />
+			<property name="JDBC.Password" value="${o.password}" />
+			<property name="JDBC.DefaultAutoCommit" value="false" />
+			<property name="Pool.MaximumActiveConnections" value="50" />
+			<property name="Pool.MaximumIdleConnections" value="10" />
+			<property name="Pool.MaximumCheckoutTime" value="120000" />
+			<property name="Pool.TimeToWait" value="500" />
+		</dataSource>
+	</transactionManager>
+	<!-- sql 명령어들이 들어 있는 Mapper파일의 이름을 지정한다. 복수개 가능하다. -->
+	<sqlMap resource="ibatis/testMapper.xml" />
+</sqlMapConfig>

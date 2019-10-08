@@ -1,0 +1,114 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-16da9324bb2-617cf59dbfd19075": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "sys as sysdba",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-internal-logon@": "sysdba",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		},
+		"oracle_thin-16da93cfe06-56819e37209cb159": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "hr",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		},
+		"oracle_thin-16da93dd6b6-714d1a7debc9027": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "jspuser",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		},
+		"oracle_thin-16da94a6e9c-1822abd682625069": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "testuser",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-sid-service@": "SERVICE",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-always-show-dba@": "false"
+				},
+				"handlers": {}
+			}
+		}
+	}
+}

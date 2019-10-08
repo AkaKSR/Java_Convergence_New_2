@@ -1,8 +1,0 @@
-create table guestbook(
-	idx int primary key auto_increment,
-	name varchar(50) not null,
-	password varchar(50) not null,
-	content text not null,
-	regDate timestamp default now(),
-	ip varchar(20) not null
-);

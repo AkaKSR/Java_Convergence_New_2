@@ -13,14 +13,18 @@
 	</insert>
 	<!-- 2. 1개 삭제 -->
 	<delete id="deleteByIdx" parameterClass="int">
-		delete from fiboard_file where idx=#idx#
+		delete from fileboard_file where idx=#idx#
 	</delete>
 	<!-- 3. ref가 같은 모든 파일 삭제 -->
 	<delete id="deleteByRef" parameterClass="int">
-		delete from fiboard_file where ref=#ref#
+		delete from fileboard_file where ref=#ref#
 	</delete>
 	<!-- 4. 개수 -->
 	<select id="selectCountByRef" parameterClass="int" resultClass="int">
 		select count(*) from fileboard_file where ref=#ref#
+	</select>
+	<!-- 5. ref가 같은 모든 파일 얻기 -->
+	<select id="selectListByRef" parameterClass="int" resultClass="FileBoardFileVO">
+		select * from fileboard_file where ref=#ref#
 	</select>
 </sqlMap>

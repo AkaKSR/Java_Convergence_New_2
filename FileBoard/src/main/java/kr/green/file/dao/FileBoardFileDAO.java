@@ -1,6 +1,7 @@
 package kr.green.file.dao;
 
 import java.sql.SQLException;
+import java.util.List;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
 
@@ -31,6 +32,11 @@ public class FileBoardFileDAO {
 //	<!-- 4. 개수 selectCountByRef -->
 	public int selectCountByRef(SqlMapClient sqlMap, int ref) throws SQLException {
 		return (int) sqlMap.queryForObject("file.selectCountByRef", ref);
+	}
+//	<!-- 5. 목록 selectListByRef -->
+	@SuppressWarnings("unchecked")
+	public List<FileBoardFileVO> selectListByRef(SqlMapClient sqlMap, int ref) throws SQLException {
+		return sqlMap.queryForList("file.selectListByRef", ref);
 	}
 	// ============================================================ //
 }
