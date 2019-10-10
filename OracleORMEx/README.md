@@ -91,3 +91,6 @@ ojdbc6.jar
 11. sys as sysdba
 
 > 시스템 관리자 계정
+=======
+init
+>>>>>>> e4b70b11becc4960268b03049fb0bdd1c1817f8a
