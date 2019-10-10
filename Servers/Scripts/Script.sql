@@ -124,3 +124,52 @@ FROM
 	TDEPT;
 
 -- tdept 자료를 이용하여 AREA별로 최소 BOSS_ID를 구해 내림차순으로 정렬
+SELECT
+	MIN(BOSS_ID)
+FROM
+	TDEPT
+GROUP BY
+	AREA;
+
+-- 직급별로 연봉 평균을 구한 상태에서 평균 연봉이 5천만원 이상인 경우의 직급과 연봉을 조회
+SELECT
+	LEV, AVG(SALARY)
+FROM
+	TEMP
+GROUP BY
+	LEV;
+
+SELECT
+	LEV, AVG(SALARY)
+FROM
+	TEMP
+GROUP BY
+	LEV
+WHERE
+	avg(SALARY)>=50000000; -- 에러
+	
+SELECT
+	LEV, AVG(SALARY)
+FROM
+	TEMP
+GROUP BY
+	LEV
+HAVING
+	avg(SALARY)>=50000000;
+
+SELECT
+	LEV, AVG(SALARY)
+FROM
+	TEMP
+WHERE
+	avg(SALARY)>=50000000; -- 에러
+
+-- 직급별 사번이 제일 늦은 사람의 사번이 1997로 시작하는 사원 출력
+SELECT
+	LEV, MIN(DEPT_CODE)
+FROM
+	TEMP;
+GROUP BY
+	
+HAVING
+	

@@ -12090,3 +12090,449 @@ java.sql.SQLSyntaxErrorException: ORA-00934: group function is not allowed here
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 12:00:43.540
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 12:00:43.554
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:02:58.130
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:02:58.130
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:02:58.130
+!MESSAGE ORA-00933: SQL command not properly ended
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:03:38.726
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:03:38.726
+!MESSAGE SQL Error [934] [42000]: ORA-00934: group function is not allowed here
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:03:38.726
+!MESSAGE ORA-00934: group function is not allowed here
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00934: group function is not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 12:06:20.423
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 12:06:20.441
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:07:58.520
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:07:58.520
+!MESSAGE SQL Error [937] [42000]: ORA-00937: not a single-group group function
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:07:58.520
+!MESSAGE ORA-00937: not a single-group group function
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00937: not a single-group group function
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:03.834
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:03.834
+!MESSAGE SQL Error [937] [42000]: ORA-00937: not a single-group group function
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:03.834
+!MESSAGE ORA-00937: not a single-group group function
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00937: not a single-group group function
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:14.031
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:14.031
+!MESSAGE SQL Error [937] [42000]: ORA-00937: not a single-group group function
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:08:14.031
+!MESSAGE ORA-00937: not a single-group group function
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00937: not a single-group group function
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:33:38.712
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:33:38.712
+!MESSAGE SQL Error [938] [42000]: ORA-00938: not enough arguments for function
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:33:38.713
+!MESSAGE ORA-00938: not enough arguments for function
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00938: not enough arguments for function
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:23.199
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:23.199
+!MESSAGE SQL Error [934] [42000]: ORA-00934: group function is not allowed here
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:23.199
+!MESSAGE ORA-00934: group function is not allowed here
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00934: group function is not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:45.690
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:45.690
+!MESSAGE SQL Error [934] [42000]: ORA-00934: group function is not allowed here
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:39:45.690
+!MESSAGE ORA-00934: group function is not allowed here
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00934: group function is not allowed here
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:4656)
+	at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:4785)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1894)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:57:06.965
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:57:06.965
+!MESSAGE ORA-00933: SQL command not properly ended
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:218)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:38.647
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:38.647
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:38.647
+!MESSAGE ORA-00933: SQL command not properly ended
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:42.057
+!MESSAGE Error executing query
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:42.057
+!MESSAGE SQL Error [933] [42000]: ORA-00933: SQL command not properly ended
+
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2019-10-10 12:59:42.057
+!MESSAGE ORA-00933: SQL command not properly ended
+
+!STACK 0
+java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
+
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:440)
+	at oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:396)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:837)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:445)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:191)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:523)
+	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:193)
+	at oracle.jdbc.driver.T4CStatement.executeForDescribe(T4CStatement.java:848)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1153)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1275)
+	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:1890)
+	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:1855)
+	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:304)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:338)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:472)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$0(SQLQueryJob.java:407)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:405)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:852)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:2825)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:98)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:146)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:96)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
