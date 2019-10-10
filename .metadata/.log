@@ -12536,3 +12536,51 @@ java.sql.SQLSyntaxErrorException: ORA-00933: SQL command not properly ended
 	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$17.run(ResultSetViewer.java:3318)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:103)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:05.589
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:05.611
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:08.196
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:08.240
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:08.305
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:09.191
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:09.208
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:22.086
+!MESSAGE The artifact com.ibatis:ibatis-sqlmap:jar:2.1.0.565 has been relocated to com.ibatis:ibatis2-sqlmap:jar:2.1.0.565
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:22.206
+!MESSAGE The artifact com.ibatis:ibatis-sqlmap:jar:2.1.0.565 has been relocated to com.ibatis:ibatis2-sqlmap:jar:2.1.0.565
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:25.066
+!MESSAGE The artifact com.ibatis:ibatis-sqlmap:jar:2.1.0.565 has been relocated to com.ibatis:ibatis2-sqlmap:jar:2.1.0.565
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:25.382
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:25.399
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:27:25.420
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:28:08.792
+!MESSAGE The artifact com.ibatis:ibatis-sqlmap:jar:2.1.0.565 has been relocated to com.ibatis:ibatis2-sqlmap:jar:2.1.0.565
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:28:08.818
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-10-10 14:28:08.832
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
