@@ -5,6 +5,21 @@
 		<column name="설명" visible="true" order="1" width="44"/>
 		<column name="드라이버 유형" visible="true" order="2" width="109"/>
 	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="123"/>
+		<column name="#" visible="true" order="1" width="33"/>
+		<column name="Data Type" visible="true" order="2" width="91"/>
+		<column name="Type Mod" visible="true" order="3" width="83"/>
+		<column name="Length" visible="true" order="4" width="61"/>
+		<column name="Precision" visible="true" order="5" width="75"/>
+		<column name="Scale" visible="true" order="6" width="49"/>
+		<column name="Not Null" visible="true" order="7" width="72"/>
+		<column name="디폴트" visible="true" order="8" width="59"/>
+		<column name="Comment" visible="true" order="9" width="81"/>
+	</item>
+	<item id="NodeList/OracleTableConstraintColumn">
+		<column name="Column" visible="true" order="0" width="109"/>
+	</item>
 	<item id="SchemaSelector">
 		<column name="Schema Name" visible="true" order="0" width="169"/>
 		<column name="Default Charset" visible="true" order="1" width="120"/>
