@@ -14,11 +14,15 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="kr.green.sitemesh"/>
+			<item value="kr.green.tag"/>
 			<item value="kr.green"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Sitemesh3Ex"/>
+			<item value="CustomTagEx"/>
 			<item value="OracleORMEx"/>
 			<item value="MariaFreeboard"/>
 			<item value="MariaGuestbook"/>

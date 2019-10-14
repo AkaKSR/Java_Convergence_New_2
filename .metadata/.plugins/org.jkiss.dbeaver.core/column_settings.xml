@@ -28,7 +28,7 @@
 		<column name="Database size" visible="true" order="4" width="107"/>
 	</item>
 	<item id="scriptSelectorViewer">
-		<column name="Script" visible="true" order="0" width="116"/>
+		<column name="Script" visible="true" order="0" width="130"/>
 		<column name="Time" visible="true" order="1" width="171"/>
 		<column name="Info" visible="true" order="2" width="1600"/>
 	</item>
