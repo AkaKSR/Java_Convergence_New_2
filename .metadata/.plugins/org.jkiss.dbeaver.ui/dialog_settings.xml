@@ -4,7 +4,7 @@
 		<item value="442" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="449" key="DIALOG_HEIGHT"/>
-		<item value="714" key="DIALOG_X_ORIGIN"/>
+		<item value="119" key="DIALOG_X_ORIGIN"/>
 		<item value="590" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="DriverDownload">
@@ -77,6 +77,28 @@
 		<item value="616" key="DIALOG_HEIGHT"/>
 		<item value="0" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SQLTargetFormatDialog">
+		<item value="415" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="455" key="DIALOG_HEIGHT"/>
+		<item value="762" key="DIALOG_X_ORIGIN"/>
+		<item value="221" key="DIALOG_Y_ORIGIN"/>
+		<section name="delphi">
+			<item value="false" key="keep-formatting"/>
+			<item value="#13#10" key="line-delimiter"/>
+		</section>
+		<section name="cpp">
+			<item value="false" key="keep-formatting"/>
+		</section>
+		<section name="java">
+			<item value="false" key="keep-formatting"/>
+			<item value="false" key="use-string-builder"/>
+		</section>
+		<section name="html">
+		</section>
+		<section name="unformatted">
+		</section>
 	</section>
 	<section name="DBeaver.DriverTabbedViewer">
 	</section>
